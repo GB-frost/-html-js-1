@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="screen1 ">
+            <h1>Guessing game</h1>
+            <p>guess a number between 0 and 10</p>
+            <p class="color1"></p>
+
+            <form action="text">
+                <input id="inpultNumber" type="number"  maxlength="2" >
+                <button id="btnTry">
+                    Try
+                </button>
+            </form>
+        </div>
+
+        <div class="screen2 hide">
+            <h2></h2>
+            <button class="pyAgain">
+                play again
+            </button>
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
+
+<!--onclick="playagan()" 

@@ -1,0 +1,125 @@
+
+:root {
+    font-size: 62.5%;
+}
+*{
+    margin:0.1px; /*quando eu coloquei esse no 0 bugou meu codego, a cor de fundo sumiu*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background:linear-gradient(287.56deg,#c2e9fb 0%, #a1c4fd 100% ) ;
+    display: grid;
+    place-items: center;
+    height: 100vh; 
+}
+
+body, button, input{
+    font-family: "  DM Sans", sans-serif;
+}
+
+main{
+    margin-top: -12rem;
+    width: min(42.8rem, 90%);
+    padding: 4.8rem 6.4rem 6.4rem;
+
+    background-color: #ffff;
+    box-shadow: 0 0.2rem 0.4rem rgba(0,0,0,0.1);
+    border-radius: 0.8rem;
+
+    text-align: center;
+}
+
+button{
+    background-color:#7879f1 ;
+    color: white;
+    font-weight: 700;
+    border-radius:  0 0.4em 0.4em 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background-color:#6060cc ;
+}
+
+span{
+    color:#2565ca ;
+}
+
+.hide{
+    display:none;
+}
+
+
+
+/*screen1*/
+h1{
+    font-family: "Montserrat";
+    font-size: 2.4rem;
+    margin-bottom: 1.6rem;
+}
+
+p{
+    opacity: 0.8;
+}
+
+h1,p{
+    color: #34355b;
+}
+
+form{
+    margin-top: 4.8rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+input{
+    background-color:#dce2e9 ;
+    width: 6.3rem;
+    border-radius: .4em 0 0 .4em;
+}
+
+
+
+input, button{
+    border: none;
+    padding: 1.6rem;
+
+
+}
+
+/*screen2*/
+h2{
+    font-size: 2.4rem;
+    font-weight: 400;
+    margin-bottom: 3.3rem;
+}
+
+.screen2 button{
+    border-radius: 0.4rem;
+}
+
+.color1{
+    color: red;
+    margin-top: .9rem;
+    animation-name: tryagain;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.73, 0.16, 0.74, 0.21);
+}
+
+@keyframes tryagain{
+    0%{
+        opacity: 1;
+    }
+
+    100%{
+        opacity:0 ;
+    }
+
+}
+
